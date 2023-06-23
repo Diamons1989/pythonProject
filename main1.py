@@ -1,5 +1,6 @@
 import re
 
+
 print("Begin")
 text = input("Введіть слово або речення: ")
 if re.findall(r"^[A-Z]+\D.\w*", text):
